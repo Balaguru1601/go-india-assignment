@@ -57,9 +57,7 @@ function Navbar({}: Props) {
 				<button
 					onClick={toggleOpen}
 					className={`self-center bg-blue-900 text-xl font-bold px-1 py-4 rounded-r-lg transition-all duration-300 ease-in-out translate-y--1/2 fixed ${
-						open
-							? "left-[calc(50%+6px)] sm:left-[calc(25%+4px)] md:left-[20%]"
-							: "left-0"
+						open ? "left-[50%] sm:left-[calc(25%+4px)] md:left-[20%]" : "left-0"
 					}`}
 				>
 					{">"}
